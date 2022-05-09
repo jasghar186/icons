@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+.icons__wrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #fcf2f2 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .title {
+        text-align: center;
+        font-size: 4rem;
+        z-index: 1;
+        font-family: 'Quicksand', sans-serif;
+        text-transform: uppercase;
+        position: relative;
+       
+    }
+}
