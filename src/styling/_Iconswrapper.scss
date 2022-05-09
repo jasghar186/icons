@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
 .icons__wrapper {
     width: 100%;
+    max-width: 100%;
     height: 100vh;
     position: relative;
-    background-color: #fcf2f2 ;
+    background-color: orange ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,8 +13,24 @@
         font-size: 4rem;
         z-index: 1;
         font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
         text-transform: uppercase;
         position: relative;
-       
+        overflow: hidden;
+        animation: type3 1s linear 1;
+        @include mobile {
+            font-size: 3rem;
+        }
     }
+    
+@keyframes type3{
+     from {
+        //  filter: opacity(0);
+        transform: scale(0);
+     }
+     to {
+        //  filter: opacity(1);
+        transform: scale(1.2);
+     }
+  }
 }

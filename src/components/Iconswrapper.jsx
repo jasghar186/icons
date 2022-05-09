@@ -15,8 +15,7 @@ export default function IconsWrapper() {
         <section className="icons__wrapper">
 
         <h1 className="title">
-            wildwarz <br />
-            cards
+            wildwarz 
         </h1>
 
             {/* balls images started */}
